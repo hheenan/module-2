@@ -7,14 +7,13 @@
 .hero {
     position: relative;
 }
-.hero-class {
-    flex-wrap: wrap;
-    display: flex;
-}
-#hero-img {
-    height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+.hero-image {
+    width: 100%;
+    display: block;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
  /* body style */
 header {
