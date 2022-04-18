@@ -1,4 +1,4 @@
-* {
+* root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,21 +45,16 @@ header nav {
     width: 100%;
 }
 .hero h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     margin: 30%;
     color: pink;
     background-color: black;
-    align-items: flex-end;
 }
 /* end hero section */
 /* about me section */
 .about-me {
     display: flex;
     flex-wrap: wrap;
-}
-.about-me p {
-    justify-content: flex-end;
-    padding-left: 20px 0;
 }
 /* main container styles */
 .main {
@@ -73,9 +68,11 @@ header nav {
 .page-section p {
     font-family: sans-serif;
     color: aquamarine;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin: 0 100px 0 100px;
 } 
 .page-section {
     display: flex;
@@ -97,6 +94,7 @@ header nav {
 #contact-me {
     display: flex;
     flex-wrap: wrap;
+    padding: 5%;
 }
 .contact-info {
     display: flex;
@@ -106,6 +104,7 @@ header nav {
 .contact-info ul {
     list-style: none;
     justify-content: space-between;
+    
 }
 .contact-info ul li a {
     text-decoration: none; 
