@@ -37,32 +37,46 @@ header nav {
     background-image: url("../assets/hannah.jpeg");
     background-size:contain;
     background-position: center;
-    justify-content: center;
+    justify-content: stretch;
     flex-wrap: wrap;
     background-repeat: no-repeat;
-
 }
 .hero-section {
     width: 100%;
 }
 .hero h2 {
-    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 30%;
     color: pink;
     background-color: black;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 /* end hero section */
 /* about me section */
-#about-me {
+.about-me {
     display: flex;
     flex-wrap: wrap;
 }
-main {
+.about-me p {
+    justify-content: flex-end;
+    padding-left: 20px 0;
+}
+/* main container styles */
+.main {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
+/* styles for page section */
+.page-section p {
+    font-family: sans-serif;
+    color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+} 
 .page-section {
     display: flex;
     flex-direction: row;
@@ -79,20 +93,21 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
 }
-p {
-    font-family: sans-serif;
-    color: aquamarine;
+/* contact info style */
+#contact-me {
     display: flex;
-    flex: wrap;
-    justify-content: flex-end;
-    flex-basis: content;
+    flex-wrap: wrap;
 }
 .contact-info {
     display: flex;
-    justify-content: space-between;
     background-color: paleturquoise;
-    padding: 15px 6% 15px 0;
     flex-wrap: wrap;
 }
-
+.contact-info ul {
+    list-style: none;
+    justify-content: space-between;
+}
+.contact-info ul li a {
+    text-decoration: none;
+}
 
