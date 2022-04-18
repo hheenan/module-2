@@ -11,3 +11,6 @@ When the portfolio loads a developers name, a recent photo or avatar, and links 
 
 ## Links:
 Application GitHub URL - https://github.com/hheenan/module-2.git
+
+## Screenshot:
+
