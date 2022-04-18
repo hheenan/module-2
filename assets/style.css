@@ -108,6 +108,6 @@ header nav {
     justify-content: space-between;
 }
 .contact-info ul li a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
