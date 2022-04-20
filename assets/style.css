@@ -55,6 +55,7 @@ header nav {
 .about-me {
     display: flex;
     flex-wrap: wrap;
+    justify-content: end;
 }
 /* main container styles */
 .main {
@@ -101,12 +102,13 @@ header nav {
     background-color: paleturquoise;
     flex-wrap: wrap;
 }
-.contact-info ul {
+.contact-info-ul-li {
     list-style: none;
     justify-content: space-between;
-    
 }
-.contact-info ul li a {
+.contact-info-a {
     text-decoration: none; 
+    padding: 14px 16px;
+    align-items: baseline;
 }
 
